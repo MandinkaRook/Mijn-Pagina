@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Formulier.css">
+</head>
+<body>
+
+<header>
+    <div class="box-1">
+    <h1>Inschrijf Formulier over kooken</h1>
+</div>
+</header>
+
+<main class="box-2">
+
+  <div class="container">
+    <div class="navbar">
+        <nav>
+            <ul>
+      <input class="zoek" type="text" placeholder="Zoek...">
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="Overmij.html">Over Mij</a></li>
+                <li> <a href="Formulier.html">Kook Formulier</a></li>
+            </ul>
+        </nav>
+    </div>  
+    <div>
+        <article>
+            <h1>Welkom op mijn kook pagina!</h1>
+            <p>Mijn Hobbie is dat ik ook graag kook. Ik ben benieuwd naar jullie recepten! Schrijf je in en maak kans op een kookbboek!</p>
+        </article>
+    </div>
+    <div>
+        <form class="Formulier">
+        <div class="input-names">
+            <p>Invullen formulier over Wat je graag kookt en lekker vindt. Niet alle velden zijn verplicht! </p>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname">
+        </div>
+        <div class="input email">
+            <label for="E-mail">E-mail:</label><br>
+            <input type="text" id="E-mail" name="E-mail">
+        </div>
+        <div class="input-phone">
+            <label for="Phone">Telefoonnummer:</label><br>
+            <input type="text" id="Phone" name="Phone">
+        </div>
+        <div class="input-race">
+            <p>Geslach:.</p>
+            <input type="radio" id="Man" name="fav_language" value="Man">
+            <label for="Man">Man</label><br>
+            <input type="radio" id="Vrouw" name="fav_language" value="Vrouw">
+            <label for="Vrouw">Vrouw</label><br>
+            <input type="radio" id="Anders" name="fav_language" value="Anders">
+            <label for="Anders">Anders</label>
+            <label for="start"></label>
+        </div>
+        <div class="input-date">
+            <p>Geboorte datum:</p>
+            <input type="date" id="start" name="trip-start"
+             value="2018-07-22"
+             min="2018-01-01" max="2018-12-31">
+        </div>
+        <div class="checkbox">
+            <p>Vavoriete keuken. Ik ben benieuwd wat je graag maakt en eet!</p>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Frans">
+            <label for="vehicle1"> Franse keuken</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Italiaans">
+            <label for="vehicle2"> Italiaanse keuken</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Spaans ">
+            <label for="vehicle3"> Spaanse keuken</label><br>
+            <input type="checkbox" id="vehicle4" name="vehicle4" value="Arabisch ">
+            <label for="vehicle4"> Arabische keuken</label><br>
+            <input type="checkbox" id="vehicle5" name="vehicle5" value="Japans ">
+            <label for="vehicle5"> Japanse keuken</label>
+        </div>
+        <div class="color-picker">
+            <p>Vavoriete schort kleur:</p>
+                <label for="colorpicker">Color Picker:</label>
+                <input type="color" id="colorpicker" value="#0000ff">
+        </div>
+        <div class="Biografie">
+            <p>Vertel meer over jou kook verhalen!</p>
+            <textarea name="Wat trekt kooken jou aan?" id="" cols="30" rows="10"></textarea> 
+        </div>
+        <div class="upload-pdf">
+            <form action="upload.php" method="post" enctype="multipart/form-data">
+                Select image to upload:
+                <input type="file" name="fileToUpload" id="fileToUpload">
+                <input type="submit" value="Upload Image" name="submit">
+              </form>
+        </div>
+        <div class="share-url">
+            <label for="url">Deel jou site:</label><br>
+            <input type="text" id="url" name="url"><br>
+        </div>
+        <div class="submit-formulier">
+            <input type="Inleveren" value="Inleveren">
+            <button type="button" class="cancelbtn">Cancel</button>
+        </div>
+          </form>
+    </div>
+ </div>   
+</main>
+
+<footer class="box-3">
+
+    <form action="action_page.php">
+      
+        <div class="subscibe" style="background-color:#333">
+          <input type="text" placeholder="Name" name="name" required>
+          <input type="text" placeholder="Email address" name="mail" required>
+          <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+        </div>
+        <div class="textarea">
+          <textarea name="Waarom vind je mijn pagina" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div class="subscibe">
+          <input type="submit" value="Subscribe">
+        </div>
+      </form>
+
+<div class="container-1">
+<div class="button-1">
+  <a href="#"></a>
+</div>
+<div class="button-2">
+  <a href="#"></a>
+</div>
+</div>
+
+<div class="contact">
+  <h2>Neem contact op.</h2>
+  <p>Bel: 061234567</p>
+  <p>E-mail: mijnwebsite@notreal.com</p>
+  <p>Adres: Ergens in Hellevoetsluis</p>
+</div>
+
+</footer>
+</body>
+</html>
